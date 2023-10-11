@@ -11,6 +11,9 @@ ___Public, Followers and Group Crack Toll by YounisXyz___</br>
 - `pkg install python`
 - `pip install requests`
 - `pip install mechanize`
+- - `pip install idna`
+- `pip install rich`
+- `pip install httpx`
 - `cd`
 - `clear`
 - `rm -rf brute_force`
