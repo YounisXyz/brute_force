@@ -1,4 +1,7 @@
-import os
-os.system("git pull") 
-os.system("clear")
-exit("Tool is on update please wait some time!\nthanks for using Younis john") 
+import os, sys
+os.system("git pull")
+try:
+    __import__("run").Login()
+except Exception as e:
+    exit(str(e))
+ 
